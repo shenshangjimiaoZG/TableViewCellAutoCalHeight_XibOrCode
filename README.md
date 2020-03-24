@@ -1,0 +1,2 @@
+# TableViewCellAutoCalHeight_XibOrCode
+不管是xib还是纯代码手写，都可以自动计算高度和缓存高度。
