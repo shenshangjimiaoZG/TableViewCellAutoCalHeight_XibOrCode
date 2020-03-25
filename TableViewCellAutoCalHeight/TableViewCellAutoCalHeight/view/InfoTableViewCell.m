@@ -12,7 +12,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-    NSLog(@"from nib");
+   
     
     self.lblDesc.numberOfLines=0;
     

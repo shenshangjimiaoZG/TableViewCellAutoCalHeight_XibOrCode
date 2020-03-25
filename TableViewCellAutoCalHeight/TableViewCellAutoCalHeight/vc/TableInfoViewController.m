@@ -1,22 +1,24 @@
-#import "ViewController.h"
+#import "TableInfoViewController.h"
 #import <Masonry/Masonry.h>
 #import "InfoTableViewCell.h"
 #import "UITableViewCell+HYBMasonryAutoCellHeight.h"
 
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface TableInfoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property(nonatomic,strong)UITableView *infoTable;
 @property (nonatomic,copy)NSString *desc;
 
 @end
 
-@implementation ViewController
+@implementation TableInfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor=[UIColor whiteColor];
     
+    self.title=@"tableviewcell自动计算高度缓存";
     
     self.infoTable=[[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
     self.infoTable.dataSource=self;
@@ -62,7 +64,7 @@
         [cell setDesc:weakSelf.desc];
     } cache:^NSDictionary *{
         
-        return @{kHYBCacheUniqueKey:@"sugur",kHYBCacheStateKey:@"see you again",kHYBRecalculateForStateKey:@(YES)};
+        return @{kHYBCacheUniqueKey:@"sugar",kHYBCacheStateKey:@"yes pls",kHYBRecalculateForStateKey:@(NO)};
     }];
     
 }

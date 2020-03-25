@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="view" destination="4Ck-qU-2kK" id="DZ6-7S-Yq0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4Ck-qU-2kK">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRd-CP-dQO">
+                    <rect key="frame" x="174" y="332" width="66" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Lzc-q9-Xfu"/>
+                        <constraint firstAttribute="width" constant="66" id="NwA-xL-seI"/>
+                    </constraints>
+                    <state key="normal" title="tableview"/>
+                    <connections>
+                        <action selector="openTable:" destination="-1" eventType="touchUpInside" id="Nqw-Mi-krS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztg-EJ-KnN">
+                    <rect key="frame" x="158" y="433" width="98" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="98" id="9Nr-Cu-Rs2"/>
+                        <constraint firstAttribute="height" constant="30" id="YJt-pr-pg6"/>
+                    </constraints>
+                    <state key="normal" title="collectionview"/>
+                    <connections>
+                        <action selector="openCollectionView:" destination="-1" eventType="touchUpInside" id="Xoh-46-4D4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" secondItem="TRd-CP-dQO" secondAttribute="trailing" constant="174" id="0y1-D4-eD1"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="F96-4t-r9j"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="leading" secondItem="gs4-yb-pli" secondAttribute="leading" constant="174" id="Hxl-PT-Wu4"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="Nhj-4C-wKt"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="top" secondItem="gs4-yb-pli" secondAttribute="top" constant="288" id="USx-Ef-VI1"/>
+                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" secondItem="ztg-EJ-KnN" secondAttribute="trailing" constant="158" id="WEw-zj-2Lc"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="top" secondItem="TRd-CP-dQO" secondAttribute="bottom" constant="71" id="gAF-OX-rgF"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="leading" secondItem="gs4-yb-pli" secondAttribute="leading" constant="158" id="qep-CQ-mn5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gs4-yb-pli"/>
+            <point key="canvasLocation" x="-365" y="159"/>
+        </view>
+    </objects>
+</document>
