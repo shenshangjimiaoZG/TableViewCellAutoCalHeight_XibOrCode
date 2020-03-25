@@ -19,9 +19,10 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRd-CP-dQO">
                     <rect key="frame" x="174" y="332" width="66" height="30"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="Lzc-q9-Xfu"/>
-                        <constraint firstAttribute="width" constant="66" id="NwA-xL-seI"/>
+                        <constraint firstAttribute="height" constant="30" id="Lpg-UB-ZJf"/>
+                        <constraint firstAttribute="width" constant="66" id="XJG-hh-2Sl"/>
                     </constraints>
                     <state key="normal" title="tableview"/>
                     <connections>
@@ -30,9 +31,10 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztg-EJ-KnN">
                     <rect key="frame" x="158" y="433" width="98" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="98" id="9Nr-Cu-Rs2"/>
-                        <constraint firstAttribute="height" constant="30" id="YJt-pr-pg6"/>
+                        <constraint firstAttribute="width" constant="98" id="6jA-zQ-FgU"/>
+                        <constraint firstAttribute="height" constant="30" id="cVy-cE-BqG"/>
                     </constraints>
                     <state key="normal" title="collectionview"/>
                     <connections>
@@ -42,14 +44,15 @@
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" secondItem="TRd-CP-dQO" secondAttribute="trailing" constant="174" id="0y1-D4-eD1"/>
-                <constraint firstItem="TRd-CP-dQO" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="F96-4t-r9j"/>
-                <constraint firstItem="TRd-CP-dQO" firstAttribute="leading" secondItem="gs4-yb-pli" secondAttribute="leading" constant="174" id="Hxl-PT-Wu4"/>
-                <constraint firstItem="ztg-EJ-KnN" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="Nhj-4C-wKt"/>
-                <constraint firstItem="TRd-CP-dQO" firstAttribute="top" secondItem="gs4-yb-pli" secondAttribute="top" constant="288" id="USx-Ef-VI1"/>
-                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" secondItem="ztg-EJ-KnN" secondAttribute="trailing" constant="158" id="WEw-zj-2Lc"/>
-                <constraint firstItem="ztg-EJ-KnN" firstAttribute="top" secondItem="TRd-CP-dQO" secondAttribute="bottom" constant="71" id="gAF-OX-rgF"/>
-                <constraint firstItem="ztg-EJ-KnN" firstAttribute="leading" secondItem="gs4-yb-pli" secondAttribute="leading" constant="158" id="qep-CQ-mn5"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="leading" relation="lessThanOrEqual" secondItem="gs4-yb-pli" secondAttribute="leading" constant="174" id="3fk-0d-UuW"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="8R4-Hh-nUL"/>
+                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="ztg-EJ-KnN" secondAttribute="trailing" constant="158" id="NDI-P6-XW3"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="leading" relation="lessThanOrEqual" secondItem="gs4-yb-pli" secondAttribute="leading" constant="158" id="Nql-5D-DV8"/>
+                <constraint firstItem="gs4-yb-pli" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="TRd-CP-dQO" secondAttribute="trailing" constant="174" id="O5s-O1-TSp"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="top" secondItem="gs4-yb-pli" secondAttribute="top" constant="288" id="bfG-qj-igu"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="top" secondItem="TRd-CP-dQO" secondAttribute="bottom" constant="71" id="gZr-LJ-RXc"/>
+                <constraint firstItem="TRd-CP-dQO" firstAttribute="top" secondItem="gs4-yb-pli" secondAttribute="top" constant="288" id="ke0-w0-97L"/>
+                <constraint firstItem="ztg-EJ-KnN" firstAttribute="centerX" secondItem="4Ck-qU-2kK" secondAttribute="centerX" id="tqB-JL-Jd7"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="gs4-yb-pli"/>
             <point key="canvasLocation" x="-365" y="159"/>
