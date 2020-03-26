@@ -2,6 +2,7 @@
 #import "UICollectionViewCell+HPMasonryAutoCellHeight.h"
 #import "InfoCollectionViewCell.h"
 #import <Masonry/Masonry.h>
+#import "CollectionReusableHeadView.h"
 
 @interface CollectionViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
@@ -14,6 +15,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
+    
     self.title=@"collectionviewcell自动计算高度缓存";
     
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
@@ -25,6 +28,8 @@
     self.collectionView.delegate=self;
     self.collectionView.backgroundColor=[UIColor whiteColor];
     [self.collectionView registerNib:[UINib nibWithNibName:kInfoCollectionViewCell bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:kInfoCollectionViewCell];
+    
+    [self.collectionView registerClass:[CollectionReusableHeadView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"CollectionReusableHeadView"];
     
     [self.view addSubview:self.collectionView];
     
@@ -53,7 +58,7 @@
 #pragma mark collectionview delegate
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 1;
+    return 3;
 }
 //动态设置每个Item的尺寸大小
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -89,12 +94,25 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
 {
-    return CGSizeMake(self.view.bounds.size.width, 20);
+    return CGSizeMake(self.view.bounds.size.width, 60);
     
 }
-
-- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 0;
+-(UICollectionReusableView*)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    if([kind isEqualToString:UICollectionElementKindSectionHeader])
+    {
+        CollectionReusableHeadView *view=[collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"CollectionReusableHeadView" forIndexPath:indexPath];
+       
+        if(view==nil)
+        {
+            view=[[CollectionReusableHeadView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
+            
+        }
+        
+        //view.backgroundColor=[UIColor darkGrayColor];
+        return view;
+    }
+    return nil;
 }
 
 //动态设置某组尾视图大小
@@ -105,7 +123,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 3;
+    return 1;
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {

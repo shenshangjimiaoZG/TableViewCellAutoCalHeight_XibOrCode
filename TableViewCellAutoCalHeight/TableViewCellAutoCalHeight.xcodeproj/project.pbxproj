@@ -20,6 +20,7 @@
 		112AF9212429A84E0028F9A4 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF91E2429A84E0028F9A4 /* UITableView+HYBCacheHeight.m */; };
 		112AF9292429B3100028F9A4 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF9272429B3100028F9A4 /* InfoTableViewCell.m */; };
 		112AF92A2429B3100028F9A4 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */; };
+		113FB3BC242C40420077399D /* CollectionReusableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 113FB3BB242C40420077399D /* CollectionReusableHeadView.m */; };
 		11D0B459242AE99B000B5816 /* UICollectionView+HPCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B458242AE99B000B5816 /* UICollectionView+HPCacheHeight.m */; };
 		11D0B45C242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B45B242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m */; };
 		11D0B460242AF1E7000B5816 /* InfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B45E242AF1E7000B5816 /* InfoCollectionViewCell.m */; };
@@ -76,6 +77,8 @@
 		112AF9262429B3100028F9A4 /* InfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
 		112AF9272429B3100028F9A4 /* InfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
 		112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		113FB3BA242C40420077399D /* CollectionReusableHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeadView.h; sourceTree = "<group>"; };
+		113FB3BB242C40420077399D /* CollectionReusableHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeadView.m; sourceTree = "<group>"; };
 		11D0B457242AE99B000B5816 /* UICollectionView+HPCacheHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HPCacheHeight.h"; sourceTree = "<group>"; };
 		11D0B458242AE99B000B5816 /* UICollectionView+HPCacheHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HPCacheHeight.m"; sourceTree = "<group>"; };
 		11D0B45A242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+HPMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 				11D0B45D242AF1E7000B5816 /* InfoCollectionViewCell.h */,
 				11D0B45E242AF1E7000B5816 /* InfoCollectionViewCell.m */,
 				11D0B45F242AF1E7000B5816 /* InfoCollectionViewCell.xib */,
+				113FB3BA242C40420077399D /* CollectionReusableHeadView.h */,
+				113FB3BB242C40420077399D /* CollectionReusableHeadView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 				11D0B459242AE99B000B5816 /* UICollectionView+HPCacheHeight.m in Sources */,
 				112AF9202429A84E0028F9A4 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				11D0B460242AF1E7000B5816 /* InfoCollectionViewCell.m in Sources */,
+				113FB3BC242C40420077399D /* CollectionReusableHeadView.m in Sources */,
 				11D0B465242AF841000B5816 /* TableInfoViewController.m in Sources */,
 				112AF8EF2429A8010028F9A4 /* HomeViewController.m in Sources */,
 				112AF8E92429A8010028F9A4 /* AppDelegate.m in Sources */,
