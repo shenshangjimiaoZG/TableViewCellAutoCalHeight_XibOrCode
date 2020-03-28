@@ -20,8 +20,8 @@
 		112AF9212429A84E0028F9A4 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF91E2429A84E0028F9A4 /* UITableView+HYBCacheHeight.m */; };
 		112AF9292429B3100028F9A4 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF9272429B3100028F9A4 /* InfoTableViewCell.m */; };
 		112AF92A2429B3100028F9A4 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */; };
-		113F60F8242EEF9F00EDF27C /* collectionview.png in Resources */ = {isa = PBXBuildFile; fileRef = 113F60F7242EEF9F00EDF27C /* collectionview.png */; };
 		113F60FA242EEFAE00EDF27C /* tableview.png in Resources */ = {isa = PBXBuildFile; fileRef = 113F60F9242EEFAE00EDF27C /* tableview.png */; };
+		113F60FC242EF08800EDF27C /* collectionview.png in Resources */ = {isa = PBXBuildFile; fileRef = 113F60FB242EF08800EDF27C /* collectionview.png */; };
 		113FB3BC242C40420077399D /* CollectionReusableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 113FB3BB242C40420077399D /* CollectionReusableHeadView.m */; };
 		11D0B459242AE99B000B5816 /* UICollectionView+HPCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B458242AE99B000B5816 /* UICollectionView+HPCacheHeight.m */; };
 		11D0B45C242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B45B242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m */; };
@@ -76,8 +76,8 @@
 		112AF9262429B3100028F9A4 /* InfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
 		112AF9272429B3100028F9A4 /* InfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
 		112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
-		113F60F7242EEF9F00EDF27C /* collectionview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collectionview.png; path = ../../../../collectionview.png; sourceTree = "<group>"; };
 		113F60F9242EEFAE00EDF27C /* tableview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableview.png; sourceTree = "<group>"; };
+		113F60FB242EF08800EDF27C /* collectionview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collectionview.png; sourceTree = "<group>"; };
 		113FB3BA242C40420077399D /* CollectionReusableHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeadView.h; sourceTree = "<group>"; };
 		113FB3BB242C40420077399D /* CollectionReusableHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeadView.m; sourceTree = "<group>"; };
 		11D0B457242AE99B000B5816 /* UICollectionView+HPCacheHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HPCacheHeight.h"; sourceTree = "<group>"; };
@@ -244,8 +244,8 @@
 		116FE6F72429C55800855635 /* screen */ = {
 			isa = PBXGroup;
 			children = (
+				113F60FB242EF08800EDF27C /* collectionview.png */,
 				113F60F9242EEFAE00EDF27C /* tableview.png */,
-				113F60F7242EEF9F00EDF27C /* collectionview.png */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -377,8 +377,8 @@
 				112AF8F72429A8030028F9A4 /* LaunchScreen.storyboard in Resources */,
 				112AF92A2429B3100028F9A4 /* InfoTableViewCell.xib in Resources */,
 				112AF8F42429A8030028F9A4 /* Assets.xcassets in Resources */,
+				113F60FC242EF08800EDF27C /* collectionview.png in Resources */,
 				113F60FA242EEFAE00EDF27C /* tableview.png in Resources */,
-				113F60F8242EEF9F00EDF27C /* collectionview.png in Resources */,
 				112AF8F22429A8010028F9A4 /* Main.storyboard in Resources */,
 				11D0B46A242AF933000B5816 /* HomeViewController.xib in Resources */,
 			);
