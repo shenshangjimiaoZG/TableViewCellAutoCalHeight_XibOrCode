@@ -20,6 +20,8 @@
 		112AF9212429A84E0028F9A4 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF91E2429A84E0028F9A4 /* UITableView+HYBCacheHeight.m */; };
 		112AF9292429B3100028F9A4 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 112AF9272429B3100028F9A4 /* InfoTableViewCell.m */; };
 		112AF92A2429B3100028F9A4 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */; };
+		113F60F8242EEF9F00EDF27C /* collectionview.png in Resources */ = {isa = PBXBuildFile; fileRef = 113F60F7242EEF9F00EDF27C /* collectionview.png */; };
+		113F60FA242EEFAE00EDF27C /* tableview.png in Resources */ = {isa = PBXBuildFile; fileRef = 113F60F9242EEFAE00EDF27C /* tableview.png */; };
 		113FB3BC242C40420077399D /* CollectionReusableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 113FB3BB242C40420077399D /* CollectionReusableHeadView.m */; };
 		11D0B459242AE99B000B5816 /* UICollectionView+HPCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B458242AE99B000B5816 /* UICollectionView+HPCacheHeight.m */; };
 		11D0B45C242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B45B242AEB63000B5816 /* UICollectionViewCell+HPMasonryAutoCellHeight.m */; };
@@ -28,9 +30,6 @@
 		11D0B465242AF841000B5816 /* TableInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B463242AF841000B5816 /* TableInfoViewController.m */; };
 		11D0B46A242AF933000B5816 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D0B469242AF933000B5816 /* HomeViewController.xib */; };
 		11D0B46D242AFA4E000B5816 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D0B46C242AFA4E000B5816 /* CollectionViewController.m */; };
-		11D95700242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D956FD242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png */; };
-		11D95701242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D956FE242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png */; };
-		11D95702242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D956FF242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png */; };
 		36F55D39C800415F4027355D /* libPods-TableViewCellAutoCalHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3D3AFB9C7123192EEEFED1 /* libPods-TableViewCellAutoCalHeight.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +76,8 @@
 		112AF9262429B3100028F9A4 /* InfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
 		112AF9272429B3100028F9A4 /* InfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
 		112AF9282429B3100028F9A4 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		113F60F7242EEF9F00EDF27C /* collectionview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collectionview.png; path = ../../../../collectionview.png; sourceTree = "<group>"; };
+		113F60F9242EEFAE00EDF27C /* tableview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableview.png; sourceTree = "<group>"; };
 		113FB3BA242C40420077399D /* CollectionReusableHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeadView.h; sourceTree = "<group>"; };
 		113FB3BB242C40420077399D /* CollectionReusableHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeadView.m; sourceTree = "<group>"; };
 		11D0B457242AE99B000B5816 /* UICollectionView+HPCacheHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HPCacheHeight.h"; sourceTree = "<group>"; };
@@ -91,9 +92,6 @@
 		11D0B469242AF933000B5816 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		11D0B46B242AFA4E000B5816 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		11D0B46C242AFA4E000B5816 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
-		11D956FD242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png"; sourceTree = "<group>"; };
-		11D956FE242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png"; sourceTree = "<group>"; };
-		11D956FF242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png"; sourceTree = "<group>"; };
 		4FDAF7BD66AA39C535C49D8C /* Pods-TableViewCellAutoCalHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewCellAutoCalHeight.debug.xcconfig"; path = "Target Support Files/Pods-TableViewCellAutoCalHeight/Pods-TableViewCellAutoCalHeight.debug.xcconfig"; sourceTree = "<group>"; };
 		8E3D3AFB9C7123192EEEFED1 /* libPods-TableViewCellAutoCalHeight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewCellAutoCalHeight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A499336C094D29A2FCED0E88 /* Pods-TableViewCellAutoCalHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewCellAutoCalHeight.release.xcconfig"; path = "Target Support Files/Pods-TableViewCellAutoCalHeight/Pods-TableViewCellAutoCalHeight.release.xcconfig"; sourceTree = "<group>"; };
@@ -246,9 +244,8 @@
 		116FE6F72429C55800855635 /* screen */ = {
 			isa = PBXGroup;
 			children = (
-				11D956FD242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png */,
-				11D956FE242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png */,
-				11D956FF242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png */,
+				113F60F9242EEFAE00EDF27C /* tableview.png */,
+				113F60F7242EEF9F00EDF27C /* collectionview.png */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -376,13 +373,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D95700242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.38.png in Resources */,
 				11D0B461242AF1E7000B5816 /* InfoCollectionViewCell.xib in Resources */,
 				112AF8F72429A8030028F9A4 /* LaunchScreen.storyboard in Resources */,
-				11D95702242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.46.png in Resources */,
 				112AF92A2429B3100028F9A4 /* InfoTableViewCell.xib in Resources */,
 				112AF8F42429A8030028F9A4 /* Assets.xcassets in Resources */,
-				11D95701242B06B3005D5B82 /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-03-25 at 11.17.41.png in Resources */,
+				113F60FA242EEFAE00EDF27C /* tableview.png in Resources */,
+				113F60F8242EEF9F00EDF27C /* collectionview.png in Resources */,
 				112AF8F22429A8010028F9A4 /* Main.storyboard in Resources */,
 				11D0B46A242AF933000B5816 /* HomeViewController.xib in Resources */,
 			);
